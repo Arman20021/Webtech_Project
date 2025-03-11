@@ -100,10 +100,9 @@
           
 
             </table>
-        <button type="button"> <h4>  Cancel</h4></button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <button type="reset"><h4>Reset</h4></button>
-        <br>
-        <br>
+            <button type="reset"><h4>Reset</h4></button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      
+        
        <button type="submit"><h4>Submit</h4></button>
     
   
