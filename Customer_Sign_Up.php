@@ -71,7 +71,7 @@
 
                 <tr>
                     <td><label for="email"><b>Email</b></label></td>
-                    <td><input type="text" placeholder="Enter your mail" id="mail" name="mail" required></td>
+                    <td><input type="email" placeholder="Enter your mail" id="mail" name="mail" required></td>
                 </tr>
                 <tr>
                     <td colspan="2"><br></td>
@@ -105,7 +105,7 @@
         
        <button type="submit"><h4>Submit</h4></button>
     
-    My name is arman
+   
         </form>
     </center>
 </body>
