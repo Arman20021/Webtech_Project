@@ -3,45 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
     <title>Admin Sign Up</title>
 </head>
 <body>
     <center>
-    <h1>Sign Up</h1>
+    <h1>Admin Sign Up</h1>
      <h4>Please take a moment to fill out this form to create your account</h4>
     <hr>
-    <br>
+   
     <form action="/submit.php">
         <div>
             <level for="name"><b>First Name :</b></level>
             <input id="name" type="text" placeholder="Enter first name">
         </div>
-        <br>
+       
         <div>
             <level for="name"><b>Last Name :</b></level>
             <input id="name" type="text" placeholder="Enter last name">
         </div>
-        <br>
+       
         <div>
             <level for="id"><b>Admin id :</b></level>
             <input id="id" type="num" placeholder="Enter your id">
         </div>
-        <br>
+     
         <div>
             <level for="phone"><b>Phone :</b></level>
             <input id="phone" type="tel" placeholder="Enter your Phone">
         </div>
-        <br>
+   
         <div>
             <level for="email"><b>E-mail :</b></level>
             <input id="email" type="mail" placeholder="Enter your mail">
         </div>
-        <br>
+      
         <div>
             <level for="dob"><b>Date of Birth :</b></level>
             <input id="dob" type="date" required>
         </div>
-        <br>
+    
 
         <div>
             <level for="gender"><b>Gender :</b></level>
@@ -52,7 +53,7 @@
             <option value="other">Other</option>
             </select>
         </div>
-<br>
+
         <!-- radio button -->
         <div>
 <p><b>Working Hour :</b></p>
@@ -72,7 +73,7 @@
         </div>
 
       
-<br>
+
 <div>
             <level for="pass"><b>Password :</b></level>
             <input id="pass" type="num" placeholder="Enter your password">

@@ -1,0 +1,81 @@
+/* Universal Selector - Applies to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ID Selector - Styling specific elements */
+#name, #id, #phone, #email, #dob, #pass, #pass1 {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #4343a3;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Grouping Selector - Styling multiple elements */
+input[type="text"], 
+input[type="tel"], 
+input[type="mail"], 
+input[type="num"], 
+input[type="date"], 
+input[type="password"], 
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Descendant Combinator - Styling elements inside form */
+form div {
+    margin-bottom: 15px;
+}
+
+/* Position Property - Sticky Title */
+h1, h4 {
+    position: sticky;
+    top: 0;
+    background-color: #f9f9f9;
+    padding: 18px;
+    text-align: center;
+    z-index: 10;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Overflow Property */
+form {
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
