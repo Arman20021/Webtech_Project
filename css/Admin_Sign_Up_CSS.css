@@ -1,0 +1,124 @@
+/* Customer_Sign_Up_CSS.css - Node.js Color Theme */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e; /* Dark mode background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #8cc84b; /* Node.js green */
+    font-size: 2.5em;
+}
+
+#motto {
+    color: #b0bec5;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.firstdiv {
+    width: 60%;
+    margin: 30px auto;
+    background: #2c2c2c;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    color: #66bb6a;
+}
+
+.field {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #8bc34a;
+    padding: 20px;
+    border-radius: 10px;
+    background: #333;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #a5d6a7;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+    width: 70%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #4caf50;
+    border-radius: 6px;
+    background-color: #444;
+    color: #e0f2f1;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus {
+    border-color: #81c784;
+    box-shadow: 0 0 6px #8bc34a;
+    outline: none;
+}
+
+input[type="radio"] {
+    margin: 0 10px 0 15px;
+}
+
+input[type="submit"] {
+    background-color: #8cc84b;
+    color: #1e1e1e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #76b041;
+    transform: scale(1.05);
+}
+
+.error {
+    color: #ef5350;
+    font-size: 0.9em;
+}
+
+#reset {
+    background-color: #ef5350;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#reset:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
